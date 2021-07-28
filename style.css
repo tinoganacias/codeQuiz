@@ -1,0 +1,172 @@
+
+* {
+  background-color: lightskyblue;
+  font: white;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0; 
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 10px;
+  font-size: 24px;
+  font: white;
+}
+
+a:hover, 
+a:focus, 
+a:active {
+  color: white;
+}
+
+button,.back-button {
+  display: inline-block;
+  padding: 20px 20px;
+  margin: 0.5em 0.5em 0 0.5em;
+  border-style: none;
+  background-color:black;
+  color: white;
+  cursor:pointer;
+  font-size: 24px;
+  text-align:center;
+}
+
+.back-button {
+  margin-left: 1px;
+}
+
+
+.hidden {
+  display: none;
+}
+
+nav {
+  padding: 20px;
+  }
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 75%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin: auto;
+}
+
+#start {
+  text-align: center;
+  font:white;
+}
+
+#highScores {
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+#question {
+  font-size: 24px;
+}
+
+#timer {
+  text-align: center;
+}
+
+#timer {
+  border-bottom: 1px;
+  padding-bottom: 5px;
+  font-size: 48px;
+  font-weight: bolder;
+  font:white;
+}
+
+#time-remaining{
+  color: red;
+}
+
+#choices {
+  list-style: none;
+  padding-left: 0;
+}
+
+#correct {
+ color: yellow;
+ font-size: 24px;
+}
+
+#wrong {
+  color: red;
+  font-size: 36px;
+}
+
+#questions {
+  border-bottom: 3px solid black;
+  padding-bottom: 15px;
+}
+
+#end {
+  border-bottom: 3px solid black;
+  padding-bottom: 15px;
+}
+
+#score-text {
+  font-size: 24px;
+  
+}
+
+#score {
+  font-weight: bold;
+  color: gray;
+  font-size: 48px;
+}
+
+#submit {
+  margin-bottom: 10px;
+}
+
+#submit-score label {
+  display: block;
+}
+
+#initials {
+  padding: 3px;
+  font-size: 12px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.error {
+  border: 1.5px solid red;
+}
+
+.choice {
+  text-align: center;
+}
+
+.choice-status {
+  font-size: 16px;
+}
+
+#error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+@media only screen and (min-width: 992px) {
+  main {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  main {
+    width: 40%;
+  }
+}
